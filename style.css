@@ -1,0 +1,29 @@
+.wrapper{
+  width: 600px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.images{
+  display: flex;
+  transition: all 0.4s;
+  
+  transform: translateX(-600px);
+}
+
+.buttons{
+  text-align: center;
+  margin: 7px;
+}
+.buttons > button{
+  border-radius: 3px;
+  padding: 4px 10px;
+}
+
+.change{
+  text-align: center;
+}
+.change > button{
+  border-radius: 3px;
+  padding: 5px;
+  margin: 0 3px;
+}
